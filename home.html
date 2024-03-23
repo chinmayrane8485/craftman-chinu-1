@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftMan Chinu</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-White" href="holi.mp3">
+                <div class="log">Lets Play Holi</div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item active">
+                        <a class="btn btn-light" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="myinfo">
+        <h1 class="holi">Hello Friends!!</h1>
+        <h1 class="hue">I am Chinu</h1>
+
+        <p class="hue"> 
+            <h2 class="hue">Wishing you & your family Happy Holi !!</h2>
+        </p>
+        <a href="contact.html" class="btn btn-danger mr-3 white">contact</a>
+    </div>
+
+
+    <audio id="backgroundAudio" autoplay>
+        <source src="balam-pichkari-1154.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var audio = document.getElementById('backgroundAudio');
+            audio.play();
+        });
+    </script>
+
+    <video autoplay loop play-inline muted>
+        <source src="Happy Holi 2024 By CWS.mp4" type="video/mp4">
+    </video>
+
+</body>
+
+</html>
+
